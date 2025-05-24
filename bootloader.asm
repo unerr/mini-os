@@ -7,10 +7,10 @@ start:
 	mov ds, ax
 	mov es, ax
 	mov ss, ax
-	mov sp, 0x7C00
+	mov sp, 0x4000 ; We don't actually use it but we must set it
 	
 	mov ah, 0x02         ; Read sectors function
-    mov al, 1            ; Read 8 sectors (4KB, adjust as needed)
+    mov al, 1            ; Read 1 sector
     mov ch, 0            ; Cylinder 0
     mov cl, 2            ; Sector 2 (after bootloader)
     mov dh, 0            ; Head 0
