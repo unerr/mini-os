@@ -1,5 +1,5 @@
 # What is this?
-This is a mini-os to explain how to write it. This project differs because it uses 32-bit (Protected) mode and 64-bit (Long) mode.
+I have written this project to explain how a bootloader works. This project differs because it uses 32-bit (Protected) mode and 64-bit (Long) mode.
 Of course, your system must support 64-bit mode for that. It will be easier for you to understand if you know assembly.
 
 # Dependencies
